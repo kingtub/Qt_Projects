@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2021-01-26T18:02:22
+# Project created by QtCreator 2021-02-01T18:40:30
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = API_Test
+TARGET = Painting
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,14 +25,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        testmainwindow.cpp \
-        iconeditor.cpp \
-        plotter.cpp
+        mainwindow.cpp
 
 HEADERS += \
-        testmainwindow.h \
-        table.hpp \
-        iconeditor.h \
-        plotter.h
-
-RESOURCES += API_Test.qrc
+        mainwindow.h
