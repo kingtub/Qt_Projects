@@ -31,11 +31,12 @@ SOURCES += \
         candlestickdatareader.cpp \
         qcustomplot.cpp \
     page_day_kline.cpp \
-    page_fenshi.cpp
+    page_fenshi.cpp \
+    page_networktest.cpp \
+    network_common.cpp
 
 HEADERS += \
         mainwindow.h \
-    network_common.hpp \
     candlestickdatareader.h \
     qcustomplot.h \
     plot_kline_with_qcp.hpp \
@@ -43,7 +44,9 @@ HEADERS += \
     plot_zhuoruidata_kline_with_qcp.hpp \
     my_custom_plot.hpp \
     page_day_kline.h \
-    page_fenshi.h
+    page_fenshi.h \
+    page_networktest.h \
+    network_common.h
 
 RESOURCES += \
     zhuoruipc.qrc
