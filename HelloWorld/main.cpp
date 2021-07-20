@@ -2,11 +2,15 @@
 #include <QApplication>
 #include<QLabel>
 #include<QPushButton>
+#include<memory>
 
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+
+    std::shared_ptr<int> si;
+    auto i = si.get();
 
     // test 1
 //    MainWindow w;
