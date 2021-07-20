@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="hk_stock_day_k">hk_stock_day_k.txt</file>
+		<file alias="hk_stock_day_fenshi">hk_stock_minute.txt</file>
+    </qresource>
+</RCC>
